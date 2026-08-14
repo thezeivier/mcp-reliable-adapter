@@ -1,5 +1,7 @@
 # MCP Reliable Adapter
 
+![MCP request flowing through a SQLite outbox, bounded retries, SaaS delivery, and dead-letter handling](assets/social-preview.png)
+
 A small, clean-room reference implementation of an MCP server that accepts support tickets even
 when a downstream SaaS is temporarily unavailable. It demonstrates a transactional outbox,
 semantic idempotency, bounded exponential retries, dead-letter handling, recovery after restart,
